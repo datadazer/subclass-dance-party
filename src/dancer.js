@@ -29,3 +29,11 @@ makeDancer.prototype.setPosition = function(top, left) {
   };
   this.$node.css(styleSettings);
 };
+
+
+// makeDancer -> calls .step every x number of seconds
+  // makeblinkyDancer .step -> blinks
+  // makeSoberDancer .step -> slowly and awkwardly moves back and forth
+  // makeDrunkDancer .step -> flails all over the place
+    // makeBlackedOutDancer .step -> lays on the ground and doesn't move
+    // makeInappropriateDancer .step -> humps the air/other dancers
